@@ -1,0 +1,7 @@
+name = "diffbot"
+version = "0.1"
+description = "Client for the diffbot API"
+archive(byte) = "diffbot.cma"
+archive(native) = "diffbot.cmxa"
+exists_if = "diffbot.cma"
+requires = "cohttp.lwt yojson"
