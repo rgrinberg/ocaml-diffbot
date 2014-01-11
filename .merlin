@@ -1,0 +1,10 @@
+S lib
+S lib_test
+B _build/lib
+B _build/lib_test
+PKG lwt
+PKG cohttp.lwt
+PKG oUnit
+PKG uri
+PKG sexplib.syntax
+PKG fieldslib.syntax
