@@ -1,0 +1,4 @@
+true: thread
+true: package(cohttp.lwt, yojson)
+<lib> or <examples>: include
+
