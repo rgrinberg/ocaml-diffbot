@@ -7,8 +7,9 @@ A Client for the diffbot API written in OCaml. See: <diffbot.com>
 
 This library depends on:
 
-* Cohttp - HTTP Client
-* Yojson - JSON Library
+* Lwt - Cooperative threading library
+* Cohttp - HTTP client
+* Yojson - JSON library
 
 Which must be installed through [OPAM](http://opam.ocaml.org/).
 
@@ -63,7 +64,7 @@ let () =
 
 ```
 
-Execute with:
+Build & run with:
 
 ```
 $ ocamlbuild -use-ocamlfind -pkg diffbot diffy.native
