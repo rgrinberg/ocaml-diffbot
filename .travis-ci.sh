@@ -17,7 +17,7 @@ opam --git-version
 
 # opam init git://github.com/ocaml/opam-repository >/dev/null 2>&1
 opam init
-opam install yojson cohttp lwt
+opam install lwt yojson cohttp ssl
 ./deps.sh
 
 eval `opam config env`
